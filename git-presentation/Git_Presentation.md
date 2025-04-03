@@ -18,17 +18,21 @@ Based on [Scott Chacon's](https://gist.github.com/schacon) talks:
    git bb-test
    ```
 ![img_14.png](img_14.png)
+
 2. **Conditional Configuration (`includeif`)**
    - Customize Git configuration based on directory or user
+   
    ![img.png](img.png)
    ![img_13.png](img_13.png)
 3. **Git Blame**
    - `git blame -L 1,10 README.md` (blame for specific lines)
    - `git blame -w -C -C -C` (track code movements across commits)
      ![img_3.png](img_3.png)
-   Definition of triple `-C`:
+   - Definition of triple `-C`:
+   
      ![img_1.png](img_1.png)
-   ChatGPT answer:
+   - ChatGPT answer:
+   
      ![img_2.png](img_2.png)
 ---
 
@@ -70,9 +74,10 @@ Based on [Scott Chacon's](https://gist.github.com/schacon) talks:
 12. **Enabling Git Maintenance:**
     - `git maintenance start`
     - Benefits: Auto garbage collection, repository optimization
+    
       ![img_7.png](img_7.png)
     
-      What does it do?
+    - What does it do?
       ![img_8.png](img_8.png)
 ---
 
@@ -102,7 +107,9 @@ Based on [Scott Chacon's](https://gist.github.com/schacon) talks:
 
 ## Optimizing Cloning & Checkout
 15. **Partial cloning**
+
     ![img_10.png](img_10.png)
+
     ![img_11.png](img_11.png)
 16. **Shallow Cloning:**
     - `git clone --filter=tree:0` (clone only the root directory)
